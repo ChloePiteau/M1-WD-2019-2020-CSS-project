@@ -5,8 +5,69 @@
 
 
 body {
+  margin: 0;
   background-color: #3e4253;
   font-family: 'Muli', sans-serif;
+}
+
+#wrap {
+  margin: 0;
+  display: flex;
+  transition: transform .4s cubic-bezier(.25, .1, .25, 1);
+}
+
+
+#wrap:not(:target) {
+  transform: translate3d(-335px, 0, 0);
+}
+
+#wrap:target {
+  transform: translate3d(0, 0, 0);
+}
+
+#open,
+#close {
+  height: 44px;
+  text-align: right;
+  display: block;
+  margin-right: -30px;
+}
+
+#close {
+  font-size: 26px;
+}
+
+#wrap:target #open,
+#wrap:not(:target) #close {
+  display: none;
+}
+
+#wrap:target #open {
+  display: none;
+}
+
+.nav {
+  padding: 25px;
+}
+
+.nav a{
+  color: white;
+  display: block;
+}
+
+.header {
+  background: #efae40;
+  width: 360px;
+  padding: 0 20px;
+  display:inline-block;
+  vertical-align:top;
+  color: white;
+}
+
+.main {
+  padding: 25px;
+  flex: 1;
+  display:inline-block;
 }
 
 section {
@@ -16,31 +77,6 @@ section {
 
 .Titre1 {
   text-align: center;
-}
-
-#main-menu {
-  background-color: #efae40;
-  height: 100%;
-  width: 320px;
-  position: absolute;
-  top: 0;
-  left: -320px;
-  transition: 1s all ease;
-  color: white;
-}
-
-#main-menu:target {
-  left: 0;
-}
-
-.open-menu {
-  padding-left: 20px;
-  font-weight: bold;
-}
-
-.close-menu {
-  padding-left: 210px;
-  font-weight: bold;
 }
 
 ul {
