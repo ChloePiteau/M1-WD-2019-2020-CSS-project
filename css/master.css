@@ -84,3 +84,8 @@ ul {
   margin-left: 10px;
   padding-left: 10px;
 }
+
+li {
+  line-height: 40px;
+  font-weight: bold;
+}
