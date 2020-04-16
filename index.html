@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>This is the first web page</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <h1 class="Titre1">Hello World wide web</h1>
     <head>
-      <a href="#main-menu" class="open-menu">Open Menu</a>
-      <nav id="main-menu">
-        <a href="#" class="close-menu">Close Menu</a>
-        <ul>
-          <li><a href="#section01">Go to section 01</a></li>
-          <li><a href="#section02">Go to section 02</a></li>
-        </ul>
-      </nav>
+      <meta charset="utf-8">
+      <title>This is the first web page</title>
+      <link rel="stylesheet" href="css/master.css">
+      <link href="https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap" rel="stylesheet">
     </head>
+    <body>
+      <div id="wrap">
+        <header class="header">
+          <nav class="nav">
+            <a href="#wrap" id="open">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27" xml:space="preserve">
+                <rect fill="#FFFFFF" width="34" height="4"/>
+                <rect y="11" fill="#FFFFFF" width="34" height="4"/>
+                <rect y="23" fill="#FFFFFF" width="34" height="4"/>
+              </svg>
+              <a href="#" id="close">x</a>
+              <ul>
+                <li><a href="#section01">Go to section 01</a></li>
+                <li><a href="#section02">Go to section 02</a></li>
+              </ul>
+          </nav>
+        </header>
 
-    <section id="section01">
-      <p>This is section 1</p>
-    </section>
-
-    <section id="section02">
-      <p>This is section 2</p>
-    </section>
-  </body>
+        <main class="main">
+          <h1 class="Titre1">Hello World wide web</h1>
+          <section id="section01">
+            <p>This is section 1</p>
+          </section>
+          <section id="section02">
+            <p>This is section 2</p>
+          </section>
+        </main>
+      </div>
+    </body>
 </html>
