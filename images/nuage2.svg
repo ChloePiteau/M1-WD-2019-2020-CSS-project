@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 668 668" style="enable-background:new 0 0 668 668;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#EFEFEF;}
+</style>
+<title>Fichier 14</title>
+<g id="Calque_2_1_">
+	<g id="Calque_1-2">
+		<g id="NUAGE">
+			<circle id="TERRE" class="st0" cx="334.2" cy="334.2" r="131.1"/>
+			<g id="NUAGE1">
+				<ellipse transform="matrix(0.6406 -0.7679 0.7679 0.6406 -176.13 478.7944)" class="st1" cx="423.4" cy="427.5" rx="6" ry="6"/>
+				<circle class="st1" cx="436.4" cy="419.8" r="11"/>
+				<circle class="st1" cx="440.1" cy="408.9" r="6.9"/>
+				<polygon class="st1" points="434.7,404.7 418.8,423.7 424.8,427.3 441,409.3 				"/>
+			</g>
+			<g id="NUAGE1-2">
+				<circle class="st1" cx="242.2" cy="243.1" r="6"/>
+				<circle class="st1" cx="229.3" cy="250.9" r="11"/>
+				<circle class="st1" cx="225.6" cy="261.8" r="6.9"/>
+				<polygon class="st1" points="231.1,266 246.9,246.9 240.9,243.3 224.8,261.4 				"/>
+			</g>
+			<g id="NUAGE1-3">
+				<ellipse transform="matrix(0.6406 -0.7679 0.7679 0.6406 -142.6824 477.7643)" class="st1" cx="439" cy="391.3" rx="6" ry="6"/>
+				<circle class="st1" cx="452" cy="383.6" r="11"/>
+				<circle class="st1" cx="455.8" cy="372.7" r="6.9"/>
+				<polygon class="st1" points="450.3,368.5 434.4,387.5 440.4,391.1 456.6,373.1 				"/>
+			</g>
+		</g>
+		<rect y="0" class="st0" width="668" height="668"/>
+	</g>
+</g>
+</svg>
