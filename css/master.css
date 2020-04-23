@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  transform: translate3d(+172px, 0, 0);
+  transform: translate3d(+151px, 0, 0);
 }
 
 
@@ -139,6 +139,7 @@ li {
 .HublotGalaxy img {
   position: absolute;
   top : 0;
+  width: 100%;
 }
 
 .fond{
@@ -165,7 +166,7 @@ li {
 
 /* Abécédaire */
 
-.container {
+#containerabc:target {
   transform: translate3d(+172px, 0, 0);
   display: flex; /* or inline-flex */
   flex-flow: row wrap;
@@ -176,7 +177,6 @@ li {
 article {
   width: 200px;
   height: 200px;
-
   margin-top: 10px;
   background-color: #efae40;
   font-size: 150px;
