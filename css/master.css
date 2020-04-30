@@ -181,3 +181,41 @@ article {
   background-color: #efae40;
   font-size: 150px;
   text-align: center;
+  position: relative;
+}
+
+article img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+
+
+article p {
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+article:hover img,
+article:hover p {
+  opacity: 1;
+}
+
+article span {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+article:hover span {
+  opacity: 0;
+}
