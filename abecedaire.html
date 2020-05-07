@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>Ami-mot</title>
       <link rel="stylesheet" href="css/master.css">
+      <script type="text/javascript" src="js/script.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -26,18 +27,22 @@
           <a href="#" class="backdrop"></a>
         </header>
 
+        <div id="scroll_to_top">
+          <a href="#top"><img src="images/top.svg" alt="Retourner en haut" /></a>
+        </div>
+
         <main class="main">
-          <h1 class="Titre1">L'Abécédaire Ami-mot</h1>
+          <h1 id="top" class="Titre1">L'Abécédaire Ami-mot</h1>
           <section id="section02">
             <p class="Texte1">Découvrez quel est l'animal caché derrière chaque lettre !</p>
             <div class="boutonABC">
               <button type="button" name="Tableau"><a href="#containerabc">Tableau</a></button>
-              <button type="button" name="Ligne"><a href="#section02">Colonne</a></button>
+              <button type="button" name="Ligne"><a href="#">Colonne</a></button>
             </div>
             <div id="containerabc">
               <article>
                 <span>A</span>
-                <img src="images/terre.svg" alt="Terre">
+                <img src="images/abeille.svg" alt="Abeille">
                 <p>Abeille</p>
               </article>
               <article>

@@ -1,13 +1,24 @@
-* {
-  text-decoration: none !important;
-  color: white !important;
+/* BOUTON TOP */
+#scroll_to_top {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 50px;
+  right: -280px;
+}
+#scroll_to_top img {
+  width: 70px;
 }
 
 
+
+/* GENERAL */
 body {
   margin: 0;
   background-color: #3e4253;
   font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
 h1 {
@@ -16,6 +27,11 @@ h1 {
 
 h2 {
   transform: translate3d(+296px, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* LE SITE  */
@@ -48,6 +64,7 @@ section {
 
 #section01 {
   height: 600px;
+  overflow:hidden;
 }
 
 
@@ -104,9 +121,15 @@ li {
   padding: 25px;
 }
 
+.nav a:hover {
+  color: #3e4253;
+  text-decoration: underline;
+}
+
 .nav a{
   color: white;
   display: block;
+  text-decoration: none;
 }
 
 .header {
@@ -127,10 +150,6 @@ li {
 .onglet2 {
   margin-top: 60px;
   text-decoration: none;
-}
-
-.onglet2:hover, .onglet1:hover {
-  text-decoration: underline;
 }
 
 
@@ -210,6 +229,8 @@ button {
 button:hover {
   background: #de9a27;
 }
+
+
 
 /* Containers */
 article {
