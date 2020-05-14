@@ -10,6 +10,15 @@
   width: 70px;
 }
 
+#top:target #containerabc,
+
+#containerabc:target {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 300px;
+}
+
 
 
 /* GENERAL */
@@ -85,6 +94,8 @@ li {
 #wrap {
   margin: 0;
   display: flex;
+  position: absolute;
+  height: 100%;
   transition: transform .4s cubic-bezier(.25, .1, .25, 1);
 }
 
