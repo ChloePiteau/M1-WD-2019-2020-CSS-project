@@ -48,6 +48,7 @@ a {
   padding: 25px;
   flex: 1;
   display:inline-block;
+  width: 930px;
 }
 
 section {
@@ -223,7 +224,7 @@ li {
 /* ABECEDAIRE */
 /* Boutons */
 .boutonABC {
-  transform: translate3d(+294px, 0, 0);
+  transform: translate3d(+340px, 0, 0);
 }
 
 button {
@@ -306,8 +307,7 @@ article {
 
 #containerimg article img {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 14%;
   left: 0;
   width: 100%;
   opacity: 1;
